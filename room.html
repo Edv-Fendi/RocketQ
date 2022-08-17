@@ -1,74 +1,83 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!---------------------CSS------------------->
+
+    <!----CSS---->
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/room.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
 
-    <!-------------------Fontes------------------>
+    <!-----fonts---->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Perguntas e Respostas</title>
   </head>
 
   <body>
     <div id="room" class="content">
       <header>
-        <a href="#">
-          <img src="assets/logo.svg" alt="Logo da Empresa" />
+        <a href="">
+          <img src="assets/logo.svg" alt="Logo Site" />
         </a>
-
         <div class="buttons">
           <div class="button outlined">
             #323243
             <img src="/assets/copy.svg" alt="Copiar numero da sala" />
           </div>
-          <a href="#" class="button"> <img src="/assets/users-white.svg" alt=Criar uma sala" /> Criar Sala </a>
+          <a href="#" class="button">
+            <img src="/assets/users-white.svg" alt="Criar Sala" /> Criar Sala
+          </a>
         </div>
       </header>
-
       <main>
         <section id="question-form">
-          <h2>Faça sua Pergunta</h2>
+          <h2>Faça sua pergunta</h2>
           <form action="">
-            <label class="sr-only" for-id="question">O que voce quer perguntar?</label>
-            <textarea name="question" id="question" placeholder="O que voce quer perguntar?"></textarea>
+            <label class="sr-only" for-id="question"
+              >O que você quer perguntar?</label
+            >
+            <textarea
+              name=""
+              id="question"
+              placeholder="O que você quer perguntar?"
+            ></textarea>
 
             <footer>
               <div>
-                <img src="/assets/lock.svg" alt="cadeado" />
-                Esta pergunta é anônima
+                <img src="/assets/lock_black_24dp 1.svg" alt="Cadeado" /> Essa
+                pergunta é anônima
               </div>
               <button>Enviar</button>
             </footer>
           </form>
         </section>
-
-        <section id="questions">
+        <section id="question">
           <h2 class="sr-only">Perguntas da comunidade</h2>
-
           <div class="questions">
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="/assets/user.svg" alt="Avatar" />
+                  <img src="/assets/user.svg" alt="Usuario" />
                 </div>
                 <div class="question">
-                  <p>Qual a diferenca entre noia e traficante?</p>
+                  <p>Qual a diferença entre const, var e let no javaScript?</p>
                 </div>
               </div>
               <div class="actions">
-                <a href="#" class="check">
-                  <img src="/assets/check.svg" alt="Marcar como lida" />
+                <a href="#" class="cheack">
+                  <img src="/assets/check 1.svg" alt="Marcar como lida" />
                   Marcar como lida
                 </a>
                 <a href="#" class="delete">
-                  <img src="/assets/trash.svg" alt="Excluir" />
-                  Excluir
+                  <img src="/assets/trash 1.svg" alt="Excluir" /> Excluir
                 </a>
               </div>
             </div>
@@ -76,20 +85,19 @@
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="/assets/user.svg" alt="Avatar" />
+                  <img src="/assets/user.svg" alt="Usuario" />
                 </div>
                 <div class="question">
-                  <p>O que é isso aqui?</p>
+                  <p>Qual a diferença entre const, var e let no javaScript?</p>
                 </div>
               </div>
               <div class="actions">
-                <a href="#" class="check">
-                  <img src="/assets/check.svg" alt="Marcar como lida" />
+                <a href="#" class="cheack">
+                  <img src="/assets/check 1.svg" alt="Marcar como lida" />
                   Marcar como lida
                 </a>
                 <a href="#" class="delete">
-                  <img src="/assets/trash.svg" alt="Excluir" />
-                  Excluir
+                  <img src="/assets/trash 1.svg" alt="Excluir" /> Excluir
                 </a>
               </div>
             </div>
@@ -97,23 +105,28 @@
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="/assets/user.svg" alt="Avatar" />
+                  <img src="/assets/user.svg" alt="Usuario" />
                 </div>
                 <div class="question">
                   <p>
-                    Uma vez Flamengo, sempre Flamengo Flamengo sempre eu hei de ser É o meu maior prazer vê-lo brilhar Seja na terra, seja no mar Vencer,
-                    vencer, vencer Uma vez Flamengo, Flamengo até morrer?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    fuga, iste libero, enim consequatur exercitationem,
+                    quibusdam dolor est voluptatem tempora omnis. Vero est error
+                    voluptas qui culpa ullam neque doloribus? Lorem, ipsum dolor
+                    sit amet consectetur adipisicing elit. Ad fuga, iste libero,
+                    enim consequatur exercitationem, quibusdam dolor est
+                    voluptatem tempora omnis. Vero est error voluptas qui culpa
+                    ullam neque doloribus?
                   </p>
                 </div>
               </div>
               <div class="actions">
-                <a href="#" class="check">
-                  <img src="/assets/check.svg" alt="Marcar como lida" />
+                <a href="#" class="cheack">
+                  <img src="/assets/check 1.svg" alt="Marcar como lida" />
                   Marcar como lida
                 </a>
                 <a href="#" class="delete">
-                  <img src="/assets/trash.svg" alt="Excluir" />
-                  Excluir
+                  <img src="/assets/trash 1.svg" alt="Excluir" /> Excluir
                 </a>
               </div>
             </div>
@@ -121,22 +134,47 @@
             <div class="question-wrapper read">
               <div class="question-content">
                 <div class="user">
-                  <img src="/assets//user.svg" alt="Avatar" />
+                  <img src="/assets/user.svg" alt="Usuario" />
                 </div>
                 <div class="question">
-                  <p>O que é Script?</p>
+                  <p>Qual a diferença entre const, var e let no javaScript?</p>
                 </div>
               </div>
               <div class="actions">
                 <a href="#" class="delete">
-                  <img src="/assets/trash.svg" alt="Excluir" />
-                  Excluir
+                  <img src="/assets/trash 1.svg" alt="Excluir" /> Excluir
                 </a>
               </div>
             </div>
           </div>
         </section>
       </main>
+    </div>
+
+    <!---Modal-->
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir Pergunta</h2>
+        <p>Tem certeza que deseja excluir esta pergunta?</p>
+
+        <form action="#">
+          <label class="sr-only" for-id="password"
+            >Digite sua senha Admin</label
+          >
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Digite sua senha"
+          />
+
+          <div class="buttons">
+            <div class="button grey">Cancelar</div>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
