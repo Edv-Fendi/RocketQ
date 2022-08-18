@@ -2,9 +2,9 @@
   "name": "rocketq-main",
   "version": "1.0.0",
   "description": "Projeto de questoes e respostas",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon ."
   },
   "keywords": [],
   "author": "Edvaldo",
@@ -12,5 +12,8 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
