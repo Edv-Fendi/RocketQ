@@ -1,15 +1,15 @@
-const Database = require("./config")
+const Database = require("./config");
 
 const initDb = {
     async init() {
-        const db = await Database()
+        const db = await Database();
 
         await db.exec(`
             
             CREATE TABLE rooms(
                 id INTEGER PRIMARY KEY,
                 pass TEXT
-                ); `)
+                ); `);
 
         await db.exec(`
 
@@ -17,10 +17,11 @@ const initDb = {
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             titulo TEXT,
             read INT
-        ); `)
+            sala INT
+        ); `);
 
-        await db.close()
-    }
-}
+        await db.close();
+    },
+};
 
 initDb.init();
